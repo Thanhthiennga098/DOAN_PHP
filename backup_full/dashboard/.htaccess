@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteRule "trang-chu.html" "index.php"
+RewriteRule "dang-ky.html" "dangky.php"
+RewriteRule "dang-nhap.html" "dangnhap.php"
+RewriteRule "the-loai.html" "categoryadd.php"
+RewriteRule "thuong-hieu.html" "brandadd.php"
+RewriteRule "them-hinh-san-pham.html" "hinhsanpham.php"
+RewriteRule "quan-ly-nuoc-hoa.html" "nuochoa.php"
+RewriteRule "quan-ly-son-moi.html" "sonmoi.php"
+RewriteRule "banner-quang-cao.html" "slideradd.php"
+RewriteRule "quan-ly-don-hang.html" "theodoidonhang.php"
+RewriteRule "lien-he.html" "lienhe.php"
+RewriteRule "quan-ly-khach-hang.html" "quanlykhachhang.php"
+
+RewriteRule "^cap-nhat-san-pham/([0-9]+)/([a-zA-Z0-9-]+).html$" "capnhatsp.php?id=$1&name=$2"

@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteRule "trang-chu.html" "index.php"
+RewriteRule "lien-he.html" "contact.php"
+RewriteRule "^chi-tiet-san-pham/([0-9-]+)/([a-zA-Z0-9-]+).html$" "product-details.php?id=$1&tensp=$2"
+RewriteRule "gio-hang.html" "giohang.php"
+RewriteRule "lien-he.html" "lienhe.php"
+RewriteRule "thanh-toan-don-hang.html" "checkout.php"
+RewriteRule "tim-kiem-san-pham.html" "timkiemsp.php
+RewriteRule "^san-pham-theo-danh-muc/([0-9-]+)/([a-zA-Z0-9-]+).html$" "product-grid.php?id=$1&ten=$2"
+RewriteRule "^san-pham-theo-danh-muc/([0-9-]+)/([a-zA-Z0-9-]+).html$" "product-grid.php?id=$1&ten=$2"
+RewriteRule "tai-khoan.html" "taikhoan.php
+RewriteRule "chi-tiet-don-hang.html" "chitietdonhang.php"
+RewriteRule "theo-doi-don-hang.html" "donhang.php"
+RewriteRule "wishlist.html" "wishlist.php"
+RewriteRule "^view-don-hang/([0-9]+).html$" "viewdonhang.php?ID=$1"
